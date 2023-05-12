@@ -1,0 +1,25 @@
+:root {
+    --cor-1: #f7f7f7;
+    --cor-2: #f46483;
+    --cor-3: #51e9b1;
+    --cor-4: #c9c9c9;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    border-left:var(--cor-1) ;
+    border-top:var(--cor-1) ;
+    border-left:var(--cor-2);
+}
